@@ -45,7 +45,7 @@ public class Student {
 
     }
     void ispas(){
-        this.avarage=((this.c1.note*0.8 + this.c1.verbalnote*0.2) + (this.c2.note*0.8 + this.c2.verbalnote*0.2) + (this.c3.note*0.8 + this.c3.verbalnote*0.2))/3; //bölü 3.0 yazınca .dan sonra uzuyor
+        this.avarage=((this.c1.note*0.8 + this.c1.verbalnote*0.2) + (this.c2.note*0.8 + this.c2.verbalnote*0.2) + (this.c3.note*0.8 + this.c3.verbalnote*0.2))/3;
         if(this.avarage >=50) {
             System.out.println("Sınıfı geçti!");
             this.ispas=true;
